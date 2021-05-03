@@ -2,6 +2,7 @@ import {environment} from './../environments/environment';
 
 const ip:string = environment.rutaEmpresa;
 const ip3:string = environment.rutaCatalogos;
+const ipCalculos:string = environment.rutaCalculos;
 
 export const direcciones = {
 
@@ -21,5 +22,7 @@ export const direcciones = {
     sedes:`${ip}/sede`,
 	reportes:`${ip}/reportes`,
     registroPatronal:`${ip}/registroPatronal`,
-    conceptos:`${ip}/percepcionDeduccion`
+    conceptos:`${ip}/percepcionDeduccion`,
+    incidencias:`${ip}/incidencias`,
+    orquestador:`${ipCalculos}/orquestador`
 };
